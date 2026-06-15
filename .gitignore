@@ -1,0 +1,10 @@
+# Build output
+build/
+.vs/
+.vscode/
+
+# Dependencies fetched locally (see scripts/fetch-deps.ps1)
+third_party/
+
+# Misc
+*.user
