@@ -1,0 +1,22 @@
+# Normalize line endings: store LF in the repo, check out native on each OS.
+* text=auto
+
+# Windows-only files that should stay CRLF on disk.
+*.bat             text eol=crlf
+*.cmd             text eol=crlf
+*.sln             text eol=crlf
+*.vcxproj         text eol=crlf
+*.vcxproj.filters text eol=crlf
+
+# Binary assets: never normalize or diff.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.bmp   binary
+*.ico   binary
+*.gif   binary
+*.zip   binary
+*.exe   binary
+*.dll   binary
+*.lib   binary
+*.nupkg binary
